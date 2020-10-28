@@ -17,7 +17,8 @@ Prettier
 ## Novidades
 
 * Agora está usando o banco SQL Postgres
-* Novas rotas: criar, listar, importar e deletar transações
+* Novas rotas: criar, listar e deletar transações
+* Um novo recurso, importar arquivo CSV
 
 #
 
