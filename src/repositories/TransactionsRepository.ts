@@ -29,11 +29,13 @@ class TransactionsRepository extends Repository<Transaction> {
       }
 
         return groupTransaction;
-    },{
+    },
+    {
       income: 0,
       outcome: 0,
       total: 0,
-    })
+    }
+  );
     
     const total = income - outcome;
 
