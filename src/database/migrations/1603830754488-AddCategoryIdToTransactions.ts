@@ -17,7 +17,7 @@ export default class AddCategoryIdToTransactions1603830754488 implements Migrati
             'transactions',
             new TableForeignKey({
                 columnNames: ['category_id'],
-                referencedColumnNames: ['category'],
+                referencedColumnNames: ['id'],
                 referencedTableName: 'categories',
                 name: 'TransactionCategory',
                 onUpdate: 'CASCADE',
